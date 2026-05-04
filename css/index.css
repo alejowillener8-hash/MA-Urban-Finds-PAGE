@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#bannermain {
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin-top: 25px;
+}
+
+#bannermain img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#contenedor-slider {
+    display: flex;
+    margin: 3% auto;
+    position: relative;
+    width: 94%;
+    aspect-ratio: 16/6;
+    gap: 5px;
+    
+}
+
+.card1,
+.card2,
+.card3,
+.card4 {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.card1 {
+    background-image: url(../imagenes/charming-blonde-curly-lady-red-sunglasses-beige-trench-coat-bright-silk-skirt-looks-up-sits-windowsill-near-window\ \(1\).webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.card2 {
+    background-image: url(../imagenes/charming-lady-white-shirt-with-black-lace-jeans-smiling-cafe-woman-with-bright-lips-short-hair-holds-flower-inside.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.card3 {
+    background-image: url(../imagenes/beautiful-vertical-picture-ginger-female-with-pure-white-skin-light-blue-gown\ \(1\).webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.card4 {
+    background-image: url(../imagenes/portrait-man-fashionable-shirt-wearing-floral-wreath\ \(1\).webp);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.card1 .imagencard1,
+.card2 .imagencard2,
+.card3 .imagencard3,
+.card4 .imagencard4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imagencard1,
+.imagencard2,
+.imagencard3,
+.imagencard4 {
+    opacity: 0;
+    transition: opacity 0.25s ease;
+}
+
+
+.card1:hover .imagencard1,
+.card2:hover .imagencard2,
+.card3:hover .imagencard3,
+.card4:hover .imagencard4 {
+    opacity: 1;
+}
+
+#bannermain2 {
+    margin: 0;
+    position: relative;
+    display: flex;
+    width: 100%;
+    aspect-ratio: 16/6;
+    margin-bottom: 3%;
+}
+
+
+.contenedorimg1,
+.contenedorimg2 {
+    flex: 1;
+}
+
+.contenedorimg1 img,
+.contenedorimg2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
