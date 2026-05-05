@@ -94,13 +94,17 @@ body {
     gap: 10px;
 }
 
-.fa-solid {
+.fa-magnifying-glass,
+.fa-cart-shopping,
+.fa-user {
     color: black;
     font-size: 18px;
     transition: color 0.4s ease;
 }
 
-.fa-solid:hover {
+.fa-magnifying-glass:hover,
+.fa-cart-shopping:hover,
+.fa-user:hover {
     color: #c9bca5;
     font-size: 18px;
 }
