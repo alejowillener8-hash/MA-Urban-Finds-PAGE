@@ -94,29 +94,6 @@ body {
     gap: 10px;
 }
 
-.buscador {
-    padding-left: 15px;
-    position: absolute;
-    top: 30%;
-    right: 120px;
-    width: 200px;
-    height: 30px;
-    border-radius: 100px;
-    border: 0;
-    background-color: #eeeeee;
-    outline: none;
-}
-
-.buscador::placeholder {
-    font-family: "Roboto Condensed", sans-serif;
-    font-size: 15px;
-    transition: color 0.3s ease;
-}
-
-.buscador:hover::placeholder {
-    color: #303030;
-}
-
 .fa-solid {
     color: black;
     font-size: 18px;
